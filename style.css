@@ -1,0 +1,43 @@
+* { box-sizing: border-box; }
+
+body {
+    font-family: system, -apple-system, ".SFNSText-Regular", "San Francisco", "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", sans-serif;
+    margin: 4em;
+    font-size: 1.2rem;
+}
+
+.file-button-label {
+    cursor: pointer;
+    background-color: #222;
+    color: #fff;
+    padding: .5em 1em;
+    border-radius: .2em;
+}
+
+#file-picker {
+    display: none;
+}
+
+.picker-form {
+    margin-top: 2em;
+}
+
+.recRow {
+    display: flex;
+}
+
+.recName {
+    width: 500px;
+    text-align: right;
+    padding: 3px;
+    padding-right: 20px;
+}
+
+.recSize {
+    flex: 1;
+}
+
+.recSize div {
+    background: #f00;
+    padding: 3px 0;
+}

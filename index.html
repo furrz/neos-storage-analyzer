@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Neos Storage Record Analysis</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div id="initial">
+        <p>
+            This tool analyzes your Neos storage usage.
+        </p>
+        <p>
+            Send <code>/requestRecordUsageJSON</code> to the neos bot in game to receive your JSON storage usage summary,
+            then upload it below. It will not be stored or sent to any servers.
+        </p>
+
+        <div class="picker-form">
+            <label for="file-picker" class="file-button-label">Pick File</label>
+            <input id="file-picker" type="file" accept=".json,application/json"/>
+        </div>
+    </div>
+    <div id="output">
+
+    </div>
+
+    <script src="analysis.js"></script>
+</body>
+</html>
